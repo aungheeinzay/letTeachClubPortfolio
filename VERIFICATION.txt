@@ -1,0 +1,9 @@
+Updated verification
+- All JavaScript files pass node --check.
+- Actual ES-module import checks pass.
+- Mock DOM checks pass: generated categories and pressed states; repeated 5/3/2 project filters without duplication; non-mutating data extension; mobile menu; light/dark preference restoration; blocked storage; form invalid states, trimmed message lengths 19/20/500/501, first-invalid focus, error correction, count and exact demo confirmation.
+- All five HTML pages have valid local link targets; module import files resolve; personal details replace the sample profile.
+- Project preview images are stored locally.
+
+Limitations
+Browser automation reported a browser-session error, so visual layout QA, native keyboard walkthrough, real-browser reload persistence and submission screenshots are not verified. Native module imports require HTTP; use start.cmd. This update is local and does not deploy to Vercel.
