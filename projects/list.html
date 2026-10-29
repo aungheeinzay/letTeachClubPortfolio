@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Little list · Practice demo</title>
+    <link rel="stylesheet" href="../assets/demo.css" />
+  </head>
+  <body>
+    <main>
+      <a href="../index.html#projects">← Back to portfolio</a>
+      <p><small>LET’S TECH CLUB · STUDENT PRACTICE DEMO</small></p>
+      <h1>Little list</h1>
+      <p>
+        A little clarity for your day. Tasks stay here until you reload this
+        demo.
+      </p>
+      <form id="task-form">
+        <label for="task" class="sr-only">New task</label
+        ><input
+          id="task"
+          aria-label="New task"
+          maxlength="150"
+          placeholder="What would you like to do?"
+          required
+        /><button>Add</button>
+      </form>
+      <p id="list-status" role="status">No tasks yet.</p>
+      <ul id="tasks"></ul>
+    </main>
+    <script src="../js/list.js"></script>
+  </body>
+</html>
